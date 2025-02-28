@@ -70,14 +70,14 @@ function pushToLanding() {
           >
         </div>
         <div class="sectionAction">
-          <a
-            style="text-decoration: none; color: black"
-            href="mailto:meaghanangel8@gmail.com"
-            ><span
+          <router-link
+                style="text-decoration: none; color: black"
+                to="/request"
+                ><span
               class="sectionActionText"
               style="outline: solid black 1px; padding: 10px"
               >APPOINTMENT REQUEST</span
-            ></a
+            ></router-link
           >
         </div>
       </div>
@@ -137,13 +137,13 @@ function pushToLanding() {
               >
             </div>
             <div class="mobileMenu-item">
-              <a
+              <router-link
                 style="text-decoration: none; color: black"
-                href="mailto:meaghanangel8@gmail.com"
+                to="/request"
                 ><span
                   class="sectionActionText"
                   >APPOINTMENT REQUEST</span
-                ></a
+                ></router-link
               >
             </div>
           </div>
