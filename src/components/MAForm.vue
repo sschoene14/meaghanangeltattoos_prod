@@ -33,7 +33,7 @@ export default {
         <label for="name">Name</label>
         <input type="text" id="name" name="name" />
 
-        <label for="pronouns">Phone</label>
+        <label for="phone">Phone</label>
         <input type="text" id="phone" name="phone" />
 
         <label for="email">Email</label>
