@@ -33,14 +33,14 @@ export default {
         <label for="name">Name</label>
         <input type="text" id="name" name="name" />
 
-        <label for="phone">Phone</label>
-        <input type="text" id="phone" name="phone" />
+        <label for="pronouns">Pronouns</label>
+        <input type="text" id="pronouns" name="pronouns" />
 
         <label for="email">Email</label>
         <input type="email" id="email" name="email" />
 
-        <!-- <label for="phone">Phone</label>
-        <input type="text" id="phone" name="phone" /> -->
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" />
 
         <label for="placement">Tattoo Placement</label>
         <input type="text" id="placement" name="placement" />
