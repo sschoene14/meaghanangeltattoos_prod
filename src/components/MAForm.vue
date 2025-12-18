@@ -44,7 +44,6 @@ export default {
           type="text"
           id="phone"
           name="phone"
-          placeholder="(000) 000-0000"
         />
 
         <label for="placement">Tattoo Placement</label>
@@ -83,6 +82,9 @@ export default {
         <label for="size">Tattoo Size(in inches)</label>
         <input type="text" id="size" name="size" />
 
+        <label for="budget">Budget</label>
+        <input type="text" id="budget" name="budget" />
+
         <label for="style">Tattoo Style</label>
         <input type="text" id="style" name="style" />
 
@@ -110,17 +112,6 @@ export default {
           <legend>Preferred Days</legend>
           <p style="display: inline-block; width: 100%">
             <label>
-              <input type="checkbox" name="available[]" value="Monday" /> Monday
-            </label>
-          </p>
-          <p style="display: inline-block; width: 100%">
-            <label>
-              <input type="checkbox" name="available[]" value="Tuesday" />
-              Tuesday
-            </label>
-          </p>
-          <p style="display: inline-block; width: 100%">
-            <label>
               <input type="checkbox" name="available[]" value="Wednesday" />
               Wednesday
             </label>
@@ -140,6 +131,12 @@ export default {
             <label>
               <input type="checkbox" name="available[]" value="Saturday" />
               Saturday
+            </label>
+          </p>
+          <p style="display: inline-block; width: 100%">
+            <label>
+              <input type="checkbox" name="available[]" value="Sunday" />
+              Sunday
             </label>
           </p>
         </fieldset>
