@@ -39,12 +39,8 @@ export default {
         <label for="email">Email</label>
         <input type="email" id="email" name="email" />
 
-        <label for="phone">Phone Number</label>
-        <input
-          type="text"
-          id="phone"
-          name="phone"
-        />
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" />
 
         <label for="placement">Tattoo Placement</label>
         <input type="text" id="placement" name="placement" />
